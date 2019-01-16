@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Package ID should be unique -->
+<MetaInformation>
+
+    <Attribute id="Package:ID" value="Hello World Example"/>
+    <Attribute id="Package:SkinFile" value="skin/"/>
+    
+</MetaInformation>

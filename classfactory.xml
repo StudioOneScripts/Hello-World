@@ -1,0 +1,23 @@
+﻿
+<!-- ClassID / metaClassID identifiers, requires unique uID's -->
+<!-- https://guidgenerator.com/online-guid-generator.aspx -->
+<!-- subCategory = Item will list in the Track category -->
+<!-- menuPriority -1 = don't show in menu -->
+<!-- functionName = Entry function in code file -->
+<!-- name = Action name -->
+
+<ClassFactory>
+	<ScriptClass
+		classID="{ED598426-DAEA-4A5C-8B05-E4F4175ECC56}"
+		category="EditTask"
+		subCategory="TrackEdit"
+		name="Hello World!"
+		sourceFile="code.js"
+		functionName="createInstance"
+		metaClassID="{A9A1BB33-A6EF-4B88-A125-7516DDB9507A}">
+		<Attribute id="menuPriority" value="1"/>
+	</ScriptClass>
+</ClassFactory>
+
+
+
