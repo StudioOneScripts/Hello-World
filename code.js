@@ -39,8 +39,6 @@ function myScript()
     // Act on GUI objects
     this.paramChanged = function (param)
     {
-        //Host.GUI.alert(param.name)
-
         // Clicked the button
         if (param == this.button)
         {
