@@ -1,5 +1,5 @@
 ﻿
-<!-- ClassID / metaClassID identifiers, requires unique uID's -->
+<!-- ClassID / metaClassID identifiers, requires unique ID's -->
 <!-- https://guidgenerator.com/online-guid-generator.aspx -->
 <!-- subCategory = Item will list in the Track category -->
 <!-- menuPriority -1 = don't show in menu -->
@@ -7,6 +7,7 @@
 <!-- name = Action name -->
 
 <ClassFactory>
+	 <!-- every action needs to be classed-->
 	<ScriptClass
 		classID="{ED598426-DAEA-4A5C-8B05-E4F4175ECC56}"
 		category="EditTask"
