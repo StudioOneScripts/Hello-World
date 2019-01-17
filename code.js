@@ -18,10 +18,10 @@ function myScript()
         this.paramList = Host.Classes.createInstance("CCL:ParamList")
         this.paramList.controller = this;
 
-        // add the button
+        // add the form button to the param list
         this.button = this.paramList.addParam("MyButton");
 
-        // Show the gui form
+        // show the gui form
         Host.GUI.runDialog(Host.GUI.Themes.getTheme(kPackageID), "MyForm", this);
         
         return Host.Results.kResultOk; 
@@ -36,7 +36,7 @@ function myScript()
 
     // ---------------------------------------------------------------------
 
-    // Act on GUI objects
+    // act on GUI objects
     this.paramChanged = function (param)
     {
         // Clicked the button
