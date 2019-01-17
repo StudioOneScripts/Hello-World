@@ -11,6 +11,7 @@
 
   <Forms>
     <Form name="MyForm" title="Hello World" buttons="close" image="background" width="200" height="100" windowstyle="dialogstyle restorepos" >
+      <!-- view is used to move everything on the form around as a group -->
       <View size="10,10,200,100">
           <Button name='MyButton' title='Click Me...' width='100' height='30' style='MyButtonC'/>
       </View>
