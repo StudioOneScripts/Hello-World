@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Skin>
   
+   <!-- simple dark image-->
   <Resources>
     <Image name="background" url="background.png"/>
   </Resources>
 
+   <!-- object styles-->
   <Styles>
     <Style name="MyButtonC" inherit="Standard.AddIn.ButtonC"/>
   </Styles>
 
+   <!-- create as many different forms as you want for different scripts -->
   <Forms>
     <Form name="MyForm" title="Hello World" buttons="close" image="background" width="200" height="100" windowstyle="dialogstyle restorepos" >
       <!-- view is used to move everything on the form around as a group -->
