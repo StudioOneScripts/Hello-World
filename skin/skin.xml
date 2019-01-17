@@ -6,7 +6,7 @@
     <Image name="background" url="background.png"/>
   </Resources>
 
-   <!-- object styles-->
+   <!-- gui object styles, buttons, labels, etc, etc -->
   <Styles>
     <Style name="MyButtonC" inherit="Standard.AddIn.ButtonC"/>
   </Styles>
