@@ -36,10 +36,10 @@ function myScript()
 
     // ---------------------------------------------------------------------
 
-    // act on GUI objects
+    // act on GUI object param changes
     this.paramChanged = function (param)
     {
-        // Clicked the button
+        // clicked the button
         if (param == this.button)
         {
             Host.GUI.alert("Hello World!");
